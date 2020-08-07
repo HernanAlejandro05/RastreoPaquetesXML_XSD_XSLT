@@ -1,0 +1,221 @@
+<?xml version="1.0"?>
+<xs:schema version="1.0"
+           xmlns:xs="http://www.w3.org/2001/XMLSchema">
+    
+    <xs:element name="Estado" type="xs:string"/>
+       
+    <xs:simpleType name="enviadoAOk">
+        <xs:restriction base="xs:string">
+            <xs:whiteSpace value="collapse"/>
+        </xs:restriction>
+    </xs:simpleType>
+    
+    <xs:simpleType name="ciudadOk">
+        <xs:restriction base="xs:string">
+            <xs:whiteSpace value="collapse"/>
+        </xs:restriction>
+    </xs:simpleType>
+    
+    <xs:simpleType name="callePrincipalOk">
+        <xs:restriction base="xs:string">
+            <xs:whiteSpace value="collapse"/>
+        </xs:restriction>
+    </xs:simpleType>
+    
+    <xs:simpleType name="calleSecundariaOk">
+        <xs:restriction base="xs:string">
+            <xs:whiteSpace value="collapse"/>
+        </xs:restriction>
+    </xs:simpleType>
+	
+     <xs:simpleType name="numeroOk">
+        <xs:restriction base="xs:positiveInteger">
+            <xs:maxInclusive value="1000"/>
+        </xs:restriction>
+    </xs:simpleType>   
+    
+    <xs:simpleType name="referenciaOk">
+        <xs:restriction base="xs:string">
+            <xs:whiteSpace value="collapse"/>
+             <xs:maxLength value="120"/>
+        </xs:restriction>
+    </xs:simpleType>    
+     
+    <xs:simpleType name="telefonoOk">
+        <xs:restriction base="xs:string">
+            <xs:maxLength value="10"/>
+        </xs:restriction>
+    </xs:simpleType>
+    
+    <xs:simpleType name="tipoUnidades">
+        <xs:restriction base="xs:string">
+            <xs:enumeration value="gramos"/>
+            <xs:enumeration value="kilogramos"/>
+            <xs:enumeration value="libra"/>
+            <xs:enumeration value="libras"/>
+        </xs:restriction>
+    </xs:simpleType>
+
+    
+    <xs:simpleType name="tipoServicio">
+        <xs:restriction base="xs:string">
+            <xs:enumeration value="gramos"/>
+            <xs:enumeration value="kilogramos"/>
+            <xs:enumeration value="libra"/>
+            <xs:enumeration value="libras"/>
+            <xs:enumeration value="manojo"/>
+            <xs:enumeration value="cucharadas"/>
+            <xs:enumeration value="cucharada"/>
+            <xs:enumeration value="ramitas"/>
+        </xs:restriction>
+    </xs:simpleType>
+	
+
+    <xs:attribute name="idRastreo">
+        <xs:simpleType>
+            <xs:restriction base="xs:string">
+                <xs:minLength value="6"/>
+                <xs:maxLength value="40"/>
+            </xs:restriction>
+        </xs:simpleType>
+    </xs:attribute>
+       
+    <xs:simpleType name="emailOk">
+	<xs:restriction base="xs:token">
+	    <xs:maxLength value="254"/>
+	    <xs:pattern value="[_\-a-zA-Z0-9\.\+]+@[a-zA-Z0-9](\.?[\-a-zA-Z0-9]*[a-zA-Z0-9])*"/>
+	</xs:restriction>
+    </xs:simpleType> 
+    
+    <xs:element name="direccionEnvio">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="ciudad" type="ciudadOk"/>
+                <xs:element name="callePrincipal" type="callePrincipalOk" />
+	        <xs:element name="calleSecundaria" type="calleSecundariaOk"/>
+		<xs:element name="numero" type="numeroOk" />
+                <xs:element name="referencia" type="referenciaOk"/>
+            </xs:sequence>                        
+        </xs:complexType>
+    </xs:element>
+   
+    <xs:element name="entregaProgramada">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="dia" type="xs:positiveInteger"/>
+                <xs:element name="mes" type="xs:positiveInteger" />
+	        <xs:element name="anio" type="xs:positiveInteger"/>
+            </xs:sequence>                        
+        </xs:complexType>    
+		
+    </xs:element>
+    
+    <xs:element name="facturadoEl">
+        <xs:complexType>
+                    <xs:sequence>
+                        <xs:element name="dia" type="xs:positiveInteger"/>
+                        <xs:element name="mes" type="xs:positiveInteger" />
+			<xs:element name="anio" type="xs:positiveInteger"/>
+		    </xs:sequence>                        
+        </xs:complexType>    
+		
+    </xs:element>
+    
+    <xs:element name="fecha">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="dia" type="xs:positiveInteger"/>
+                <xs:element name="mes" type="xs:positiveInteger" />
+	        <xs:element name="anio" type="xs:positiveInteger"/>
+            </xs:sequence>                        
+        </xs:complexType>    
+		
+    </xs:element>
+    
+    <xs:element name="horaLocal">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="hora" type="xs:string"/>
+                <xs:element name="minuto" type="xs:string"/>
+	        <xs:element name="segundos" type="xs:string"/>
+            </xs:sequence>                        
+        </xs:complexType>    
+    </xs:element>
+    
+    <xs:complexType name="tipoPeso">
+            <xs:sequence>
+                <xs:element name="unidad" type="tipoUnidades"/>
+                <xs:element name="cantidad" type="xs:string" />
+	    </xs:sequence>                        
+    </xs:complexType>    
+       
+    <xs:element name="Destinatario">
+        <xs:complexType>
+                        <xs:sequence>
+                        <xs:element name="enviadoA" type="enviadoAOk" />
+                        <xs:element ref="direccionEnvio"/>
+			<xs:element name="telefono" type="telefonoOk"/>
+			<xs:element name="email" type="emailOk"/>
+                    </xs:sequence>                        
+        </xs:complexType>
+		
+    </xs:element>
+
+    <xs:element name="Envio">
+        <xs:complexType>
+                        <xs:sequence>
+                        <xs:element name="estado" type="xs:string"/>
+                        <xs:element ref="entregaProgramada" />
+                        <xs:element ref="facturadoEl" />
+                        <xs:element name="servicio" type="xs:string"/>
+                        <xs:element name="peso" type="tipoPeso"/>
+                    </xs:sequence>
+                   
+                
+        </xs:complexType>
+    </xs:element>
+	
+    <xs:element name="Rastreo">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element ref="fecha"
+                  maxOccurs="unbounded"/>
+                <xs:element ref="horaLocal"
+                  maxOccurs="unbounded"/>
+                <xs:element name="ubicacion" type="xs:string"
+                  maxOccurs="unbounded"/>
+                <xs:element name="actividad" type="xs:string"
+                  maxOccurs="unbounded"/>
+            </xs:sequence>
+                 
+        </xs:complexType>
+    </xs:element>
+    
+    <xs:element name="Rastreos">
+        <xs:complexType>
+                <xs:sequence>
+                    <xs:element ref="Rastreo" maxOccurs ="unbounded" />
+            </xs:sequence>
+            </xs:complexType>
+        </xs:element>
+
+    <xs:element name="paquete">
+	<xs:complexType>
+            <xs:sequence>
+                <xs:element ref="Destinatario" maxOccurs ="1" />
+                <xs:element ref="Envio" maxOccurs = "1"/>
+	        <xs:element ref="Rastreos" maxOccurs = "unbounded"/>
+        </xs:sequence>
+        <xs:attribute ref="idRastreo" use="required"/> 
+        </xs:complexType>
+    </xs:element>
+
+    
+    <xs:element name="Seguimiento">
+	<xs:complexType>
+            <xs:sequence>
+	        <xs:element ref="paquete" maxOccurs = "unbounded"/>
+	    </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+</xs:schema>

@@ -1,0 +1,677 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="seguimiento.xsl"?>
+<Seguimiento xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="seguimiento.xsd">
+   
+    <paquete idRastreo="4HK76DVYY63">
+        
+<Destinatario>
+        <enviadoA>Juan Perez</enviadoA>
+        <direccionEnvio>
+            <ciudad>Quito</ciudad>
+            <callePrincipal>Av. Américas</callePrincipal>
+            <calleSecundaria>Av. Calderón</calleSecundaria>
+            <numero>584</numero>
+            <referencia>Estadio</referencia>
+        </direccionEnvio>
+
+
+        <telefono>0999888777</telefono>
+        <email>jp@gmail.com</email>
+    </Destinatario>
+    <Envio>
+        <estado>En camino</estado>
+        <entregaProgramada>
+            <dia>28</dia>
+            <mes>05</mes>
+            <anio>2020</anio>
+        </entregaProgramada>
+        <facturadoEl>
+            <dia>25</dia>
+            <mes>05</mes>
+            <anio>2020</anio>
+        </facturadoEl>
+        <servicio>Envío de Paquetes </servicio>
+        <peso>
+            <unidad>libras</unidad>
+            <cantidad>15</cantidad>
+        </peso>
+    </Envio>
+
+    
+    <Rastreos>    
+    <Rastreo><!--CUENCA-->
+        <fecha>
+            <dia>26</dia>
+            <mes>05</mes>
+            <anio>2020</anio>
+        </fecha>
+        <horaLocal>
+            <hora>8</hora>
+            <minuto>00</minuto>
+            <segundos>00</segundos>
+        </horaLocal>
+        <ubicacion>Cuenca</ubicacion>
+        <actividad>El paquete esta en proceso de embarque.  </actividad>
+        </Rastreo><!--CUENCA-->
+        <Rastreo>
+        <fecha>
+            <dia>26</dia>
+            <mes>05</mes>
+            <anio>2020</anio>
+        </fecha>
+        <horaLocal>
+            <hora>9</hora>
+            <minuto>20</minuto>
+            <segundos>35</segundos>
+        </horaLocal>
+        <ubicacion>Cuenca</ubicacion>
+        <actividad>El paquete ha sido entregado a la instalacion de transporte. </actividad>
+        </Rastreo><!--CUENCA-->
+        <Rastreo>
+        <fecha>
+            <dia>26</dia>
+            <mes>05</mes>
+            <anio>2020</anio>
+        </fecha>
+        <horaLocal>
+            <hora>11</hora>
+            <minuto>32</minuto>
+            <segundos>40</segundos>
+        </horaLocal>
+        <ubicacion>Cuenca</ubicacion>
+        <actividad>El paquete ha salido de las instalaciones.</actividad>
+    </Rastreo><!--AZOGUES-->
+    <Rastreo>
+        <fecha>
+            <dia>26</dia>
+            <mes>05</mes>
+            <anio>2020</anio>
+        </fecha>
+        <horaLocal>
+            <hora>12</hora>
+            <minuto>02</minuto>
+            <segundos>25</segundos>
+        </horaLocal>
+        <ubicacion>Azogues</ubicacion>
+        <actividad>Paquete ha llegado a Azogues.</actividad>
+    </Rastreo><!--RIOBAMBA-->
+    <Rastreo>
+        <fecha>
+            <dia>27</dia>
+            <mes>05</mes>
+            <anio>2020</anio>
+        </fecha>
+        <horaLocal>
+            <hora>16</hora>
+            <minuto>19</minuto>
+            <segundos>22</segundos>
+        </horaLocal>
+        <ubicacion>Riobamba</ubicacion>
+        <actividad>El Riobamba.</actividad>
+    </Rastreo><!--AMBATO-->
+    <Rastreo>
+        <fecha>
+            <dia>27</dia>
+            <mes>05</mes>
+            <anio>2020</anio>
+        </fecha>
+        <horaLocal>
+            <hora>18</hora>
+            <minuto>11</minuto>
+            <segundos>12</segundos>
+        </horaLocal>
+        <ubicacion>Ambato</ubicacion>
+        <actividad>El paquete esta por Ambato.</actividad>
+    </Rastreo><!--LATACUNGA-->
+    <Rastreo>
+        <fecha>
+            <dia>27</dia>
+            <mes>05</mes>
+            <anio>2020</anio>
+        </fecha>
+        <horaLocal>
+            <hora>21</hora>
+            <minuto>30</minuto>
+            <segundos>40</segundos>
+        </horaLocal>
+        <ubicacion>Latacunga</ubicacion>
+        <actividad>El paquete atraviesa la ruta Latacunga-Quito</actividad>
+    </Rastreo><!--QUITO-->
+    <Rastreo>
+        <fecha>
+            <dia>28</dia>
+            <mes>05</mes>
+            <anio>2020</anio>
+        </fecha>
+        <horaLocal>
+            <hora>00</hora>
+            <minuto>30</minuto>
+            <segundos>28</segundos>
+        </horaLocal>
+        <ubicacion>Quito</ubicacion>
+        <actividad> El paquete ha llegado a la ciudad destino.</actividad>
+    </Rastreo>
+    <!--QUITO-->
+    <Rastreo>
+        <fecha>
+            <dia>28</dia>
+            <mes>05</mes>
+            <anio>2020</anio>
+        </fecha>
+        <horaLocal>
+            <hora>09</hora>
+            <minuto>30</minuto>
+            <segundos>28</segundos>
+        </horaLocal>
+        <ubicacion>Quito</ubicacion>
+        <actividad> El paquete ha sido entregado.</actividad>
+    </Rastreo>
+</Rastreos>
+</paquete>
+    <!--***2***-->
+
+    <paquete idRastreo="4HEOT5K6MB3">
+
+        <Destinatario>
+            <enviadoA>Jose Lopez</enviadoA>
+            <direccionEnvio>
+                <ciudad>Cuenca</ciudad>
+                <callePrincipal>Isabel Anton</callePrincipal>
+                <calleSecundaria>Duitama</calleSecundaria>
+                <numero>12</numero>
+                <referencia>Casa esquinera a dos cuadras de la iglesia de Las Orquideas</referencia>
+            </direccionEnvio>
+            <telefono>0986652980</telefono>
+            <email>jose@gmail.com</email>
+        </Destinatario>
+        
+        <Envio>
+            <estado>En camino</estado>
+            <entregaProgramada>
+                <dia>30</dia>
+                <mes>07</mes>
+                <anio>2020</anio>
+            </entregaProgramada>
+            <facturadoEl>
+                <dia>28</dia>
+                <mes>05</mes>
+                <anio>2020</anio>
+            </facturadoEl>
+            <servicio>Envío de Paquetes </servicio>
+            <peso>
+                <unidad>gramos</unidad>
+                <cantidad>2000</cantidad>
+            </peso>
+        </Envio>
+    
+        
+        <Rastreos>    
+        <Rastreo>
+            <fecha>
+                <dia>28</dia>
+                <mes>05</mes>
+                <anio>2020</anio>
+            </fecha>
+            <horaLocal>
+                <hora>7</hora>
+                <minuto>00</minuto>
+                <segundos>00</segundos>
+            </horaLocal>
+            <ubicacion>Beijing</ubicacion>
+            <actividad>El paquete esta en proceso de embarque.  </actividad>
+            </Rastreo><!--Beijing-->
+            <Rastreo>
+            <fecha>
+                <dia>29</dia>
+                <mes>05</mes>
+                <anio>2020</anio>
+            </fecha>
+            <horaLocal>
+                <hora>11</hora>
+                <minuto>25</minuto>
+                <segundos>40</segundos>
+            </horaLocal>
+            <ubicacion>Beijing</ubicacion>
+            <actividad>El paquete ha sido entregado a la instalacion de transporte. </actividad>
+            </Rastreo><!--Beijing-->
+            <Rastreo>
+            <fecha>
+                <dia>26</dia>
+                <mes>06</mes>
+                <anio>2020</anio>
+            </fecha>
+            <horaLocal>
+                <hora>14</hora>
+                <minuto>40</minuto>
+                <segundos>50</segundos>
+            </horaLocal>
+            <ubicacion>Quito</ubicacion>
+            <actividad>Arribo al pais.</actividad>
+        </Rastreo><!--quito-->
+        <Rastreo>
+            <fecha>
+                <dia>30</dia>
+                <mes>06</mes>
+                <anio>2020</anio>
+            </fecha>
+            <horaLocal>
+                <hora>16</hora>
+                <minuto>02</minuto>
+                <segundos>30</segundos>
+            </horaLocal>
+            <ubicacion>Quito</ubicacion>
+            <actividad>Envio recibido en oficina.</actividad>
+        </Rastreo><!--quito-->
+        <Rastreo>
+            <fecha>
+                <dia>07</dia>
+                <mes>07</mes>
+                <anio>2020</anio>
+            </fecha>
+            <horaLocal>
+                <hora>15</hora>
+                <minuto>19</minuto>
+                <segundos>22</segundos>
+            </horaLocal>
+            <ubicacion>Quito</ubicacion>
+            <actividad>Envio recibido en Aduana.</actividad>
+        </Rastreo><!--quito-->
+        <Rastreo>
+            <fecha>
+                <dia>15</dia>
+                <mes>07</mes>
+                <anio>2020</anio>
+            </fecha>
+            <horaLocal>
+                <hora>10</hora>
+                <minuto>11</minuto>
+                <segundos>12</segundos>
+            </horaLocal>
+            <ubicacion>Quito</ubicacion>
+            <actividad>envio retornado desde la aduana.</actividad>
+        </Rastreo><!--Quito-->
+        <Rastreo>
+            <fecha>
+                <dia>17</dia>
+                <mes>07</mes>
+                <anio>2020</anio>
+            </fecha>
+            <horaLocal>
+                <hora>9</hora>
+                <minuto>20</minuto>
+                <segundos>40</segundos>
+            </horaLocal>
+            <ubicacion>Quito</ubicacion>
+            <actividad>Envío insertado en una bolsa-Quito</actividad>
+        </Rastreo><!--QUITO-->
+        <Rastreo>
+            <fecha>
+                <dia>20</dia>
+                <mes>07</mes>
+                <anio>2020</anio>
+            </fecha>
+            <horaLocal>
+                <hora>08</hora>
+                <minuto>10</minuto>
+                <segundos>28</segundos>
+            </horaLocal>
+            <ubicacion>Quito</ubicacion>
+            <actividad> Envío recibido en una locación (Entrada).</actividad>
+        </Rastreo>
+        <!--QUITO-->
+        <Rastreo>
+            <fecha>
+                <dia>27</dia>
+                <mes>07</mes>
+                <anio>2020</anio>
+            </fecha>
+            <horaLocal>
+                <hora>12</hora>
+                <minuto>30</minuto>
+                <segundos>28</segundos>
+            </horaLocal>
+            <ubicacion>Quito</ubicacion>
+            <actividad> Llegada Domestico.</actividad>
+        </Rastreo>
+    </Rastreos>
+    </paquete>
+<!--***3***-->
+
+    <paquete idRastreo="4HGW23MC5">
+
+        <Destinatario>
+            <enviadoA>Luis Velez</enviadoA>
+            <direccionEnvio>
+                <ciudad>Quito</ciudad>
+                <callePrincipal>Av. Américas</callePrincipal>
+                <calleSecundaria>Av. Calderón</calleSecundaria>
+                <numero>584</numero>
+                <referencia>Estadio</referencia>
+            </direccionEnvio>
+    
+    
+            <telefono>0999888777</telefono>
+            <email>jp@gmail.com</email>
+        </Destinatario>
+        
+        <Envio>
+            <estado>En camino</estado>
+            <entregaProgramada>
+                <dia>28</dia>
+                <mes>05</mes>
+                <anio>2020</anio>
+            </entregaProgramada>
+            <facturadoEl>
+                <dia>25</dia>
+                <mes>05</mes>
+                <anio>2020</anio>
+            </facturadoEl>
+            <servicio>Envío de Paquetes </servicio>
+            <peso>
+                <unidad>libras</unidad>
+                <cantidad>15</cantidad>
+            </peso>
+        </Envio>
+    
+        
+        <Rastreos>    
+        <Rastreo><!--CUENCA-->
+            <fecha>
+                <dia>26</dia>
+                <mes>05</mes>
+                <anio>2020</anio>
+            </fecha>
+            <horaLocal>
+                <hora>8</hora>
+                <minuto>00</minuto>
+                <segundos>00</segundos>
+            </horaLocal>
+            <ubicacion>Cuenca</ubicacion>
+            <actividad>El paquete esta en proceso de embarque.  </actividad>
+            </Rastreo><!--CUENCA-->
+            <Rastreo>
+            <fecha>
+                <dia>26</dia>
+                <mes>05</mes>
+                <anio>2020</anio>
+            </fecha>
+            <horaLocal>
+                <hora>9</hora>
+                <minuto>20</minuto>
+                <segundos>35</segundos>
+            </horaLocal>
+            <ubicacion>Cuenca</ubicacion>
+            <actividad>El paquete ha sido entregado a la instalacion de transporte. </actividad>
+            </Rastreo><!--CUENCA-->
+            <Rastreo>
+            <fecha>
+                <dia>26</dia>
+                <mes>05</mes>
+                <anio>2020</anio>
+            </fecha>
+            <horaLocal>
+                <hora>11</hora>
+                <minuto>32</minuto>
+                <segundos>40</segundos>
+            </horaLocal>
+            <ubicacion>Cuenca</ubicacion>
+            <actividad>El paquete ha salido de las instalaciones.</actividad>
+        </Rastreo><!--AZOGUES-->
+        <Rastreo>
+            <fecha>
+                <dia>26</dia>
+                <mes>05</mes>
+                <anio>2020</anio>
+            </fecha>
+            <horaLocal>
+                <hora>12</hora>
+                <minuto>02</minuto>
+                <segundos>25</segundos>
+            </horaLocal>
+            <ubicacion>Azogues</ubicacion>
+            <actividad>Paquete ha llegado a Azogues.</actividad>
+        </Rastreo><!--RIOBAMBA-->
+        <Rastreo>
+            <fecha>
+                <dia>27</dia>
+                <mes>05</mes>
+                <anio>2020</anio>
+            </fecha>
+            <horaLocal>
+                <hora>16</hora>
+                <minuto>19</minuto>
+                <segundos>22</segundos>
+            </horaLocal>
+            <ubicacion>Riobamba</ubicacion>
+            <actividad>El Riobamba.</actividad>
+        </Rastreo><!--AMBATO-->
+        <Rastreo>
+            <fecha>
+                <dia>27</dia>
+                <mes>05</mes>
+                <anio>2020</anio>
+            </fecha>
+            <horaLocal>
+                <hora>18</hora>
+                <minuto>11</minuto>
+                <segundos>12</segundos>
+            </horaLocal>
+            <ubicacion>Ambato</ubicacion>
+            <actividad>El paquete esta por Ambato.</actividad>
+        </Rastreo><!--LATACUNGA-->
+        <Rastreo>
+            <fecha>
+                <dia>27</dia>
+                <mes>05</mes>
+                <anio>2020</anio>
+            </fecha>
+            <horaLocal>
+                <hora>21</hora>
+                <minuto>30</minuto>
+                <segundos>40</segundos>
+            </horaLocal>
+            <ubicacion>Latacunga</ubicacion>
+            <actividad>El paquete atraviesa la ruta Latacunga-Quito</actividad>
+        </Rastreo><!--QUITO-->
+        <Rastreo>
+            <fecha>
+                <dia>28</dia>
+                <mes>05</mes>
+                <anio>2020</anio>
+            </fecha>
+            <horaLocal>
+                <hora>00</hora>
+                <minuto>30</minuto>
+                <segundos>28</segundos>
+            </horaLocal>
+            <ubicacion>Quito</ubicacion>
+            <actividad> El paquete ha llegado a la ciudad destino.</actividad>
+        </Rastreo>
+        <!--QUITO-->
+        <Rastreo>
+            <fecha>
+                <dia>28</dia>
+                <mes>05</mes>
+                <anio>2020</anio>
+            </fecha>
+            <horaLocal>
+                <hora>09</hora>
+                <minuto>30</minuto>
+                <segundos>28</segundos>
+            </horaLocal>
+            <ubicacion>Quito</ubicacion>
+            <actividad> El paquete ha sido entregado.</actividad>
+        </Rastreo>
+    </Rastreos>
+    </paquete>
+<!--***4***-->
+
+    <paquete idRastreo="4HK7FDEER76">
+
+        <Destinatario>
+            <enviadoA>Juan Perez</enviadoA>
+            <direccionEnvio>
+                <ciudad>Quito</ciudad>
+                <callePrincipal>Av. Américas</callePrincipal>
+                <calleSecundaria>Av. Calderón</calleSecundaria>
+                <numero>584</numero>
+                <referencia>Estadio</referencia>
+            </direccionEnvio>
+    
+    
+            <telefono>0999888777</telefono>
+            <email>jp@gmail.com</email>
+        </Destinatario>
+        
+        <Envio>
+            <estado>En camino</estado>
+            <entregaProgramada>
+                <dia>28</dia>
+                <mes>05</mes>
+                <anio>2020</anio>
+            </entregaProgramada>
+            <facturadoEl>
+                <dia>25</dia>
+                <mes>05</mes>
+                <anio>2020</anio>
+            </facturadoEl>
+            <servicio>Envío de Paquetes </servicio>
+            <peso>
+                <unidad>libras</unidad>
+                <cantidad>15</cantidad>
+            </peso>
+        </Envio>
+    
+        
+        <Rastreos>    
+        <Rastreo><!--CUENCA-->
+            <fecha>
+                <dia>26</dia>
+                <mes>05</mes>
+                <anio>2020</anio>
+            </fecha>
+            <horaLocal>
+                <hora>8</hora>
+                <minuto>00</minuto>
+                <segundos>00</segundos>
+            </horaLocal>
+            <ubicacion>Cuenca</ubicacion>
+            <actividad>El paquete esta en proceso de embarque.  </actividad>
+            </Rastreo><!--CUENCA-->
+            <Rastreo>
+            <fecha>
+                <dia>26</dia>
+                <mes>05</mes>
+                <anio>2020</anio>
+            </fecha>
+            <horaLocal>
+                <hora>9</hora>
+                <minuto>20</minuto>
+                <segundos>35</segundos>
+            </horaLocal>
+            <ubicacion>Cuenca</ubicacion>
+            <actividad>El paquete ha sido entregado a la instalacion de transporte. </actividad>
+            </Rastreo><!--CUENCA-->
+            <Rastreo>
+            <fecha>
+                <dia>26</dia>
+                <mes>05</mes>
+                <anio>2020</anio>
+            </fecha>
+            <horaLocal>
+                <hora>11</hora>
+                <minuto>32</minuto>
+                <segundos>40</segundos>
+            </horaLocal>
+            <ubicacion>Cuenca</ubicacion>
+            <actividad>El paquete ha salido de las instalaciones.</actividad>
+        </Rastreo><!--AZOGUES-->
+        <Rastreo>
+            <fecha>
+                <dia>26</dia>
+                <mes>05</mes>
+                <anio>2020</anio>
+            </fecha>
+            <horaLocal>
+                <hora>12</hora>
+                <minuto>02</minuto>
+                <segundos>25</segundos>
+            </horaLocal>
+            <ubicacion>Azogues</ubicacion>
+            <actividad>Paquete ha llegado a Azogues.</actividad>
+        </Rastreo><!--RIOBAMBA-->
+        <Rastreo>
+            <fecha>
+                <dia>27</dia>
+                <mes>05</mes>
+                <anio>2020</anio>
+            </fecha>
+            <horaLocal>
+                <hora>16</hora>
+                <minuto>19</minuto>
+                <segundos>22</segundos>
+            </horaLocal>
+            <ubicacion>Riobamba</ubicacion>
+            <actividad>El Riobamba.</actividad>
+        </Rastreo><!--AMBATO-->
+        <Rastreo>
+            <fecha>
+                <dia>27</dia>
+                <mes>05</mes>
+                <anio>2020</anio>
+            </fecha>
+            <horaLocal>
+                <hora>18</hora>
+                <minuto>11</minuto>
+                <segundos>12</segundos>
+            </horaLocal>
+            <ubicacion>Ambato</ubicacion>
+            <actividad>El paquete esta por Ambato.</actividad>
+        </Rastreo><!--LATACUNGA-->
+        <Rastreo>
+            <fecha>
+                <dia>27</dia>
+                <mes>05</mes>
+                <anio>2020</anio>
+            </fecha>
+            <horaLocal>
+                <hora>21</hora>
+                <minuto>30</minuto>
+                <segundos>40</segundos>
+            </horaLocal>
+            <ubicacion>Latacunga</ubicacion>
+            <actividad>El paquete atraviesa la ruta Latacunga-Quito</actividad>
+        </Rastreo><!--QUITO-->
+        <Rastreo>
+            <fecha>
+                <dia>28</dia>
+                <mes>05</mes>
+                <anio>2020</anio>
+            </fecha>
+            <horaLocal>
+                <hora>00</hora>
+                <minuto>30</minuto>
+                <segundos>28</segundos>
+            </horaLocal>
+            <ubicacion>Quito</ubicacion>
+            <actividad> El paquete ha llegado a la ciudad destino.</actividad>
+        </Rastreo>
+        <!--QUITO-->
+        <Rastreo>
+            <fecha>
+                <dia>28</dia>
+                <mes>05</mes>
+                <anio>2020</anio>
+            </fecha>
+            <horaLocal>
+                <hora>09</hora>
+                <minuto>30</minuto>
+                <segundos>28</segundos>
+            </horaLocal>
+            <ubicacion>Quito</ubicacion>
+            <actividad> El paquete ha sido entregado.</actividad>
+        </Rastreo>
+    </Rastreos>
+    </paquete>
+
+</Seguimiento>
